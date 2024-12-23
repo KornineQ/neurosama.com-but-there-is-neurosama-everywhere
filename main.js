@@ -38,7 +38,7 @@ lamp.addEventListener("click", function() {
         explosion.style.opacity = "0";
         setTimeout(() => {
             document.body.removeChild(explosion);
-            window.location.href = "https://neurosama.shop";
+            window.location.href = "https://youtu.be/etEM3S9LbMM?si=Nh30oUvgS1FQVci4&t=21";
         }, 1000); // Wait for fade out transition to complete
     }, 300); // Show explosion for 1 second
 });
@@ -104,7 +104,7 @@ function fetchTargetColor() {
 // Create raining cats
 function createCat() {
     const cat = document.createElement('img');
-    cat.src = 'https://static.vecteezy.com/system/resources/previews/034/925/406/non_2x/ai-generated-shorthair-cat-on-transparent-background-image-png.png';
+    cat.src = 'theywillcomeback.png';
     cat.style.position = 'fixed';
     cat.style.zIndex = '0';
     cat.style.width = '50px';
